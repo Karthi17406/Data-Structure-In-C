@@ -36,7 +36,7 @@ for(i=0;i<n;i++)
 newnode=add_new(data);
 if(head==NULL)
     {
-	head=newnode;
+	head=newnode;//to keep the head pointer in the 1st node.. so that we can able to print it from the 1st node
 	temp=head;
      }
      else{
